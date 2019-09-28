@@ -1,6 +1,6 @@
 ---
 home: true
-heroText: Avocodeo Documentation
+heroText: Testing Avocodeo Documentation
 heroImage: '/hero.jpg'
 tagline: Agile Software Development 
 actionText: Get Started →
