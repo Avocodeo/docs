@@ -1,5 +1,5 @@
 module.exports = {
-    base: '/',
+    base: '/docs/',
     title: 'Avocodeo',
     description: 'Just playin',
     themeConfig: {
