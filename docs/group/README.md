@@ -30,16 +30,14 @@
 
 # Availability 
 
-| Member        | Available           | Not Available  |
-| ------------- |:-------------:| :-----:|
-| James Moore     | After 5pm Monday - Friday / Weekends| Monday-Friday 8am - 4pm |
-| Tyler Ouellette     |       |    |
-| Justin Dearden |       |     |
-| Sahil Verma |       |     |
-| Nick Stanton |       |     |
+| Member          |                   Available                   |       Not Available       |
+| --------------- | :-------------------------------------------: | :-----------------------: |
+| James Moore     |     After 5pm Monday - Friday / Weekends      |  Monday-Friday 8am - 4pm  |
+| Tyler Ouellette | Tuesday, Thursday, Friday / Weekends Any Time | Monday & Wednesday 10-7pm |
+| Justin Dearden  |                                               |                           |
+| Sahil Verma     |                                               |                           |
+| Nick Stanton    |                                               |                           |
 
 # Sprints
 
 ## Sprint 1 October 7th - 13th 
-
-
