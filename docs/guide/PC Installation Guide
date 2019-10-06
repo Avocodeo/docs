@@ -1,0 +1,54 @@
+1.	Step one is to install the latest version of PHP which can be found on the following website 
+  a.	https://www.php.net/downloads.php
+  b.	Download the zip file that is thread safe and compatible for Windows 10
+  c.	Create a file on your C drive called “php”
+  d.	Extract the zip file into the php folder located in your C drive
+  e.	Delete the zip file
+
+
+2.	Install a composer to manage our dependencies
+  a.	Visit the following link: https://getcomposer.org/doc/00-intro.md and download the Composer-Setup.exe under the heading Installation – Windows
+  b.	Run the composer setup and you will automatically see php.exe is suggested as an option for command line 
+  c.	Leave the default settings when installing and after installation, close all file explorer windows, command line prompts and proceed to logoff and then login
+  d.	Test usage by opening CMD and typing in “composer -V” without quotes and you should see the composer version and time of installation
+
+
+3.	Time to install Laravel! 
+  a.	Type the following into CMD: composer global require laravel/installer 
+
+
+4.	Make sure your environmental $PATH variable is set up properly
+  a.	Click the windows button
+  b.	Type in “This PC”
+  c.	Right-click the icon and hit properties
+  d.	Click Advanced system settings located on the left side of the new window
+  e.	Select Environmental Variables located near the bottom 
+  f.	Select the Path variable and click edit
+  g.	Verify you have the following line \AppData\Roaming\Composer\vendor\bin tied to your user account on Windows (Owner is my user account)
+  h.  Full link for myself: C:\Users\Owners\AppData\Roaming\Composer\vendor\bin
+  
+  
+5.	Go to your C:\php folder and find the php.ini-development, php.ini-production 
+  a.	Control F to search for ;extension=intl
+  b.	Remove the semi-colon in front to allow for extensions 
+  c.	Remove all semi-colons from all extensions EXCEPT extension=openssl & extension=mbstring to allow for the use of extensions
+  d.	Do this to both files, save and close
+  e.	In your address bar in file explorer, type C:\php\php.ini
+    i.	Once you hit enter it will open the config file for php
+    ii.	Do the same procedure by removing the semi-colon in front of all extensions EXCEPT extension=openssl & extension=mbstring
+    iii.	The image below is what all three files should look like
+    
+    
+6.	If you receive a warning for pdo_firebird extension do the following
+  a.	Visit this website: https://firebirdsql.org/en/firebird-3-0/#Win64
+  b.	Download the 32/64 bit kit ZIP file for manual installation
+  c.	Extract the file and search for fbclient.dll
+  d.	Copy the file and open the C:\php directory and paste the dll file there
+  e.	This will solve the warning message
+
+
+7.	Open CMD and type Laravel new * where * is the name of your project 
+  a.	If you receive a pdo_oci error you will need to download Oracle 12c from the vendors website (optional)
+
+You’re now ready to begin! 
+Note: Optional extensions can be installed based off needs
