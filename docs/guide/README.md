@@ -6,7 +6,7 @@
 * Step 1
 
 ### Mac 
-## Initial Settings
+#### Initial Settings
 * Install Homebrew (if not already installed).   
 `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
@@ -16,7 +16,7 @@ In a terminal window run the following command.
 If no results are shown then install PHP by running.        
 `brew install php`        
 
-## Installing Composer       
+#### Installing Composer       
 First open a terminal window. For ease of use, create a folder on the desktop (to hold the installer file) and then cd into that folder.        
 
 Your terminal window should not be set to the directory of new folder on your desktop.
@@ -37,7 +37,7 @@ This new file will have to be set as a global variable, if not it will be needed
 
 Now at any point, you can type `composer` in your terminal window, regardless of the directory you are in, and it will run the composer.phar file.    
 
-## Install Laravel      
+#### Install Laravel      
 * Run the following command to install Laravel.      
 
 `composer global require "laravel/installer"`         
@@ -69,7 +69,7 @@ Write the following underneath the first export statement in the file.
 
 Then click the `esc` key and type `:wq` to save and exit the Vim editor. 
 
-## Setting Up Initial Project (Test Project)
+#### Setting Up Initial Project (Test Project)
 In a terminal window, `cd` to any folder you want. This is where we will create a test project to ensure Laravel is working correctly. 
 
 Run `laravel new myfirstproject` where `myfirstproject` is the name you will give to the project. 
