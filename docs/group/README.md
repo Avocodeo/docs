@@ -79,7 +79,7 @@ Wrote up our simple design documentation and deployed to documentation website
 4.    Watching Laracast videos/YouTube tutorials to familiarize myself with the environment and extra practice for when we start coding!
 </p>
 
-#### Tyler Oulette
+#### Tyler Ouellette
 
 <p>
 1. I created a Trello board for the group that is being used for our weekly sprints. 
@@ -87,5 +87,5 @@ Wrote up our simple design documentation and deployed to documentation website
 3. Uploaded my documentation guide to the github.
 4. Created a review of the laracasts videos with basic examples and documentation for quick reference. Will be uploading the documentation once formatting is complete.
 5. Watched the Laracast Videos up to video 10.
-
+</p>
 #### Nick Stanton
