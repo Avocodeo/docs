@@ -41,13 +41,13 @@
 
 # Availability 
 
-| Member          |                   Available                   |       Not Available       |
-| --------------- | :-------------------------------------------: | :-----------------------: |
-| James Moore     |     After 5pm Monday - Friday / Weekends      |  Monday-Friday 8am - 4pm  |
-| Tyler Ouellette | Tuesday, Thursday, Friday / Weekends Any Time | Monday & Wednesday 10-7pm |
-| Justin Dearden  | Tuesday + Wednesday + Thursday after 6pm. Weekends~ | Monday / Friday |
-| Sahil Verma     | After 6pm / Weekends |  Mornings |
-| Nick Stanton    | Mon \ Wed after 6pm Weekends  | Tuesday / Thursday Before 6pm Monday Wednesday |
+| Member          |                      Available                      |                 Not Available                  |
+| --------------- | :-------------------------------------------------: | :--------------------------------------------: |
+| James Moore     |        After 5pm Monday - Friday / Weekends         |            Monday-Friday 8am - 4pm             |
+| Tyler Ouellette |    Tuesday, Thursday, Friday / Weekends Any Time    |           Monday & Wednesday 10-7pm            |
+| Justin Dearden  | Tuesday + Wednesday + Thursday after 6pm. Weekends~ |                Monday / Friday                 |
+| Sahil Verma     |                After 6pm / Weekends                 |                    Mornings                    |
+| Nick Stanton    |            Mon \ Wed after 6pm Weekends             | Tuesday / Thursday Before 6pm Monday Wednesday |
 
 # Sprints
 
@@ -81,5 +81,11 @@ Wrote up our simple design documentation and deployed to documentation website
 
 #### Tyler Oulette
 
-#### Nick Stanton
+<p>
+1. I created a Trello board for the group that is being used for our weekly sprints. 
+2. I installed composer for mac and laravel. I had some issues with the set up process. I created a document with all the instructions of what I did and followed of the laracast videos and included screen shots of the errors that I had. 
+3. Uploaded my documentation guide to the github.
+4. Created a review of the laracasts videos with basic examples and documentation for quick reference. Will be uploading the documentation once formatting is complete.
+5. Watched the Laracast Videos up to video 10.
 
+#### Nick Stanton
