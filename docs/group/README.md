@@ -1,4 +1,4 @@
-s# Group
+# Group
 
 # Design Documentation 
 
@@ -82,9 +82,15 @@ Wrote up our simple design documentation and deployed to documentation website
 #### Tyler Ouellette
 
 <p>
+
 1. I created a Trello board for the group that is being used for our weekly sprints. 
+   
 2. I installed composer for mac and laravel. I had some issues initially with the set up process. After looking over the process and re-doing it, I got it working properly.  The issue was within my zshrc file Path.
+   
 3. Created a review of the laracasts videos with basic examples and documentation for quick reference. Will be uploading the documentation once formatting is complete.
+   
 4. Watched the Laracast Videos up to video 10.
+
+</p>
 
 #### Nick Stanton
