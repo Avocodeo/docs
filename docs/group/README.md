@@ -1,4 +1,4 @@
-# Group
+s# Group
 
 # Design Documentation 
 
@@ -84,8 +84,9 @@ Wrote up our simple design documentation and deployed to documentation website
 <p>
 1. I created a Trello board for the group that is being used for our weekly sprints. 
 2. I installed composer for mac and laravel. I had some issues with the set up process. I created a document with all the instructions of what I did and followed of the laracast videos and included screen shots of the errors that I had. 
-3. Uploaded my documentation guide to the github.
-4. Created a review of the laracasts videos with basic examples and documentation for quick reference. Will be uploading the documentation once formatting is complete.
-5. Watched the Laracast Videos up to video 10.
+3. After looking over the process and re-doing it, I got it working properly.  The issue was within my zshrc file Path.
+4. Uploaded my documentation guide to the github.
+5. Created a review of the laracasts videos with basic examples and documentation for quick reference. Will be uploading the documentation once formatting is complete.
+6. Watched the Laracast Videos up to video 10.
 
 #### Nick Stanton
