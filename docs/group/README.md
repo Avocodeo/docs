@@ -41,13 +41,13 @@
 
 # Availability 
 
-| Member          |                   Available                   |       Not Available       |
-| --------------- | :-------------------------------------------: | :-----------------------: |
-| James Moore     |     After 5pm Monday - Friday / Weekends      |  Monday-Friday 8am - 4pm  |
-| Tyler Ouellette | Tuesday, Thursday, Friday / Weekends Any Time | Monday & Wednesday 10-7pm |
-| Justin Dearden  | Tuesday + Wednesday + Thursday after 6pm. Weekends~ | Monday / Friday |
-| Sahil Verma     | After 6pm / Weekends |  Mornings |
-| Nick Stanton    | Mon \ Wed after 6pm Weekends  | Tuesday / Thursday Before 6pm Monday Wednesday |
+| Member          |                      Available                      |                 Not Available                  |
+| --------------- | :-------------------------------------------------: | :--------------------------------------------: |
+| James Moore     |        After 5pm Monday - Friday / Weekends         |            Monday-Friday 8am - 4pm             |
+| Tyler Ouellette |    Tuesday, Thursday, Friday / Weekends Any Time    |           Monday & Wednesday 10-7pm            |
+| Justin Dearden  | Tuesday + Wednesday + Thursday after 6pm. Weekends~ |                Monday / Friday                 |
+| Sahil Verma     |                After 6pm / Weekends                 |                    Mornings                    |
+| Nick Stanton    |            Mon \ Wed after 6pm Weekends             | Tuesday / Thursday Before 6pm Monday Wednesday |
 
 # Sprints
 
@@ -79,7 +79,18 @@ Wrote up our simple design documentation and deployed to documentation website
 4.    Watching Laracast videos/YouTube tutorials to familiarize myself with the environment and extra practice for when we start coding!
 </p>
 
-#### Tyler Oulette
+#### Tyler Ouellette
+
+<p>
+
+1. I created a Trello board for the group that is being used for our weekly sprints. 
+   
+2. I installed composer for mac and laravel. I had some issues initially with the set up process. After looking over the process and re-doing it, I got it working properly.  The issue was within my zshrc file Path.
+   
+3. Created a review of the laracasts videos with basic examples and documentation for quick reference. Will be uploading the documentation once formatting is complete.
+   
+4. Watched the Laracast Videos up to video 10.
+
+</p>
 
 #### Nick Stanton
-
