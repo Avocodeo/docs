@@ -94,15 +94,17 @@ At this point Laravel should handle installing all the files and you can open th
   a.	Type the following into CMD: composer global require laravel/installer 
 
 
-4.	Make sure your environmental $PATH variable is set up properly
+4.	Make sure your environmental $PATH variable is set up properly. You can do this by opening command prompt and typing without quotes "PATH" and hitting enter. The last entry displayed should show the composer entry. If not, do the following:
   a.	Click the windows button
   b.	Type in “This PC”
   c.	Right-click the icon and hit properties
   d.	Click Advanced system settings located on the left side of the new window
   e.	Select Environmental Variables located near the bottom 
   f.	Select the Path variable and click edit
-  g.	Verify you have the following line \AppData\Roaming\Composer\vendor\bin tied to your user account on Windows (Owner is my user account)
+  g.	Verify you have the following line C:\Users\<your username>\AppData\Roaming\Composer\vendor\bin tied to your user account on Windows
   h.  Full link for myself: C:\Users\Owners\AppData\Roaming\Composer\vendor\bin
+  
+  A good tutorial to follow for this is here: https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/
   
   
 5.	Go to your C:\php folder and find the php.ini-development, php.ini-production 
