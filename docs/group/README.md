@@ -89,3 +89,7 @@ Wrote up our simple design documentation and deployed to documentation website
 5. Watched the Laracast Videos up to video 10.
 </p>
 #### Nick Stanton
+1. I followed the documentation provided by group members and installed Git, PHP, Composer, and Laravel in that order. Encountered some dependency isues, fixed and made sure all further dependencies were correct, all plugins were loaded. PHP Launches, and is able to run laravel framework.
+2. Git cloned the project files and ensured that compatibility was working between my system and the rest of the group
+3. Participated in card edits on trello, providing input where necessary
+4. Edited setup documentation for installation stand-alone systems
