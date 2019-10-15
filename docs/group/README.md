@@ -94,3 +94,50 @@ Wrote up our simple design documentation and deployed to documentation website
 </p>
 
 #### Nick Stanton
+<p>
+1. I followed the documentation provided by group members and installed Git, PHP, Composer, and Laravel in that order. Encountered some dependency isues, fixed and made sure all further dependencies were correct, all plugins were loaded. PHP Launches, and is able to run laravel framework.
+2. Git cloned the project files and ensured that compatibility was working between my system and the rest of the group
+3. Participated in card edits on trello, providing input where necessary
+4. Edited setup documentation for installation stand-alone systems
+</p>
+
+## Sprint 2 October 9th - 14th 
+
+#### Tyler Ouellette
+<p>
+
+1. Attended sprint meeting with the customer. 30min
+2. Helped design database Schema with Justin/Sahil for table layout and entity relationship  1hr
+3. Created Users endpoint for API which included created the controller, table seeder, Factory, migrations and Test cases with the help of James 3 hours. This did entail issues as test cases for create user and update user failing (ongoing issue, 2 additional hours of trouble shooting)
+4. Basic Trello housekeeping, brainstorm ideas for project. 30 min
+5. Added members to review section of pull requests.
+6. Create Sprint Report, update Docs repo of sprint details.
+</p>
+
+#### James Moore
+<p>
+1. Brain stormed features 30m
+2. Helped out some team mates with development environment issues /questions 2.5h. 3. Prepared the sprint for this week 2h
+4. Added reoccurring agile techniques and use to our group documentation page
+5.  Created Controller, model, migrations, endpoints and tests for Categories, Measurements, Ingredients as well as setting up a relationship and foreign key with ingredient to measurement 6h. 
+6.  Added members to review section of pull requests.
+</p>
+
+#### Justin Dearden
+<p>
+1. Implemented continuous integration software (Travis) to the repo. Set up its test environment, DB settings, commands and linked it to the project. Configured it after for better optimization. (https://travis-ci.com/Avocodeo/wfd-api) Time spent: 2.5H.
+2. Created ‘Recipes’ endpoint for the API. Involved building the controller, model, view, DB factory, DB seeder, migrations and test cases. Time spent: 3H.
+3. Attended sprint meeting with our customer/Tyler. Time spent: 30M.
+4. Helped design database schema with Tyler/Sahil. Time spent: 1H.
+5. Housekeeping items, such as updating Trello and reviewing pull requests on GitHub. Time spend: 30M.
+</p>
+
+#### Sahil Verma
+<p>
+1. Worked with Tyler and Justin to create our unofficial database schema
+2.Created an updated/official database schema using dbdiagram.io to get a better visual representation with relationships 
+2a.Using Microsoft Access, created all database tables, populated 100 ingredients with RNG numbers for cost, expiry date and quantity so we can start coding some of our features since data is in. Created the same relationships using Microsoft Access which now allows us to do advance SQL queries in Access which we can convert to MySQL commands. Access also allows us to easily export our table to numerous file types making it easy to add to any database language/framework.
+3. Brainstormed a couple ideas for what our application can do and added to our Trello card
+</p>
+
+#### Nick Stanton
