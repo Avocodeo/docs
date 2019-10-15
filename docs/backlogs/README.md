@@ -25,8 +25,8 @@ When a new user is added to the system (restaurant)
 - feature 
 
 ## Database Relationships
-- A meal has ingreidients. 
-- Many meals have many ingridents. 
+- A meal has ingredients. 
+- Many meals have many ingredients. 
 - many ingredients belong to many meals
 - A user has one restaurant 
 - A restaurant has many users 
