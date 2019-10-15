@@ -1,25 +1,52 @@
 # Backlogs
 
 ## Product Backlog
-- Users
-- User Login
-- Admin Permissions
-- Regular User Permissions
-- Keeping track of inventory of a given location/household/restaurant
-- Having a database table of different ingredients
-- Having a database table of different meals
-- Categories of meals Breakfast, lunch, dinner, snacks
-- Measurements table 
-- Grocery list feature
-- Notifications when something is running low
-- notifications when something is added to the inventory
-- Being able to add an ingredient
-- Being able to add a meal 
-- Emails being sent out to users 
-When inventory is updated
-When inventory is low
-when inventory is empty
-When a new user is added to the system (restaurant)
+Product Backlog
+https://avocodeo.github.io/docs/backlogs/#product-backlog
+In Progress
+•	The system will keep track of current inventory of the restaurant/location/household
+o	The system will be able to generate notifications on quantity of suppliers
+o	The system will be able to generate reports on usage of inventory given a timeframe
+•	A user will be able to create a grocery list of items that when filled will be updated in the inventory database table
+•	The system will automate the creation of a grocery list from the tolerances set in the inventory.  
+•	The system will generate notifications to system admins, and users via notification bubble and emails 
+o	Low inventory
+o	High inventory
+o	Empty inventory
+•	The system will let users know what meals can be created depending on the current inventory
+•	Management Page Categories
+•	Management Page Categories
+•	Management Page Ingredients
+•	Management Page Measurements
+•	Management Page Recipes
+•	Management Page Users
+•	Graph stats in the application
+•	Email a recipe to someone
+•	Export recipe in text format 
+•	A user may have permissions that are different from other users
+•	Route groups for different users
+Completed
+•	User authentication system
+o	A user can login to the system
+o	A user can logout of the system
+•	
+A user will be able to perform CRUD operations on different ingredients in the system
+o	Insert an ingredient
+o	Update an ingredient
+o	Delete an ingredient 
+•	A user will be able to perform CRUD operations on different meals/recipes in the system
+o	Insert an recipe
+o	Update a recipe
+o	Delete an recipe
+•	A user will be able to perform CRUD operations on different categories of recipes in the system
+o	Insert an category
+o	Update a category
+o	Delete an category
+•	A user will be able to perform CRUD operations on different measurements in the system
+o	Insert an measurement
+o	Update a measurement
+o	Delete an measurement
+
 
 ## Sprint Backlog
 ### Sprint 1 October 2nd - 7th
