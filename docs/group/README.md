@@ -100,7 +100,6 @@ Wrote up our simple design documentation and deployed to documentation website
 
 #### Tyler Ouellette
 <p>
-
 1. Attended sprint meeting with the customer. 30min
 2. Helped design database Schema with Justin/Sahil for table layout and entity relationship  1hr
 3. Created Users endpoint for API which included created the controller, table seeder, Factory, migrations and Test cases with the help of James 3 hours. This did entail issues as test cases for create user and update user failing (ongoing issue, 2 additional hours of trouble shooting)
@@ -181,3 +180,4 @@ a) Added 'isAdmin' entry to users table in database for additional administrativ
 b) Created AdminController and associated blade pages and setup routes for new user administration page. 1h
 c) Extensively researched laravel authentication features for use between Admins and Users. 8h
 d) Researched SMTP and laravel's built in email features. 1h
+</p>
