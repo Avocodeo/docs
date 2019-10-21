@@ -51,7 +51,7 @@
 
 # Sprints
 
-## Sprint 1 October 2nd - 8th 
+## Sprint 1 October 2nd - 7th 
 
 The purpose of this sprint was for every one to get some knowledge of the laravel framework, and set up
 their development environments. Which involved setting up the Documentation repository and Whats for dinner api. 
@@ -136,3 +136,48 @@ Wrote up our simple design documentation and deployed to documentation website
 </p>
 
 #### Nick Stanton
+
+## Sprint 3 October 16th - 21st 
+
+#### Tyler Ouellette
+<p>
+1.  Updated Docs Repo with sprint Log, backuplog, and finish sprint report document 2hr
+2. Attended Customer meeting  1hr
+3. Did Users Management Page with controllers and updated migrations 5h
+4. Did Categories Management Page 1hr
+5. Created Inventory Model/View/Controller/Routes/Management Page/Test 2hr
+6. Helped Group understand functionality of project and database 30min
+7. Created Default Admin account to seeder 1hr
+8. Minor Trello House  Keeping 30min
+</p>
+
+#### James Moore
+<p>
+1. Added vuetify component library and set up application menu and side bar menu 4h. 
+2. Created the first management page ingredients with crud capabilities vue component, created measurements management page vue component and created measurement type model, controller, tests and relationships 10h. 
+3. Added bacon strip favicon :bacon: 30m. 
+4. Met with group members to solve development environment issues 3H.
+5. Sprint planning 2h.
+</p>
+
+#### Justin Dearden
+<p>
+1. Sat with James to troubleshoot local environment / DB 1hr
+2. Research Vuetify and the component library 1hr
+3. Created the recipe management page with crud capabilities, vue components and controller 3hr
+4. Reviewed main index.vue file to learn structure and understand how to effectively make changes 1hr
+5. Sprint review 30min
+</p>
+
+  #### Sahil Verma
+<p>
+
+</p>
+
+#### Nick Stanton
+<p>
+1. Worked with Tyler to create the user management page
+a) Added 'isAdmin' entry to users table in database for additional administrative permissions, and changed users table migration file. 1h
+b) Created AdminController and associated blade pages and setup routes for new user administration page. 1h
+c) Extensively researched laravel authentication features for use between Admins and Users. 8h
+d) Researched SMTP and laravel's built in email features. 1h
