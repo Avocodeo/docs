@@ -136,7 +136,7 @@ Wrote up our simple design documentation and deployed to documentation website
 
 #### Nick Stanton
 
-## Sprint 3 October 16th - 21st 
+## Sprint 3 October 15th - 21st 
 
 #### Tyler Ouellette
 <p>
