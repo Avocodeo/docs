@@ -99,47 +99,45 @@ Wrote up our simple design documentation and deployed to documentation website
 ## Sprint 2 October 9th - 13th 
 
 #### Tyler Ouellette
-<p>
+
 1. Attended sprint meeting with the customer. 30min
 2. Helped design database Schema with Justin/Sahil for table layout and entity relationship  1hr
 3. Created Users endpoint for API which included created the controller, table seeder, Factory, migrations and Test cases with the help of James 3 hours. This did entail issues as test cases for create user and update user failing (ongoing issue, 2 additional hours of trouble shooting)
 4. Basic Trello housekeeping, brainstorm ideas for project. 30 min
 5. Added members to review section of pull requests.
 6. Create Sprint Report, update Docs repo of sprint details.
-</p>
+
 
 #### James Moore
-<p>
+
 1. Brain stormed features 30m
 2. Helped out some team mates with development environment issues /questions 2.5h. 3. Prepared the sprint for this week 2h
-4. Added reoccurring agile techniques and use to our group documentation page
-5.  Created Controller, model, migrations, endpoints and tests for Categories, Measurements, Ingredients as well as setting up a relationship and foreign key with ingredient to measurement 6h. 
-6.  Added members to review section of pull requests.
-</p>
+3. Added reoccurring agile techniques and use to our group documentation page
+4.  Created Controller, model, migrations, endpoints and tests for Categories, Measurements, Ingredients as well as setting up a relationship and foreign key with ingredient to measurement 6h. 
+5.  Added members to review section of pull requests.
+
 
 #### Justin Dearden
-<p>
+
 1. Implemented continuous integration software (Travis) to the repo. Set up its test environment, DB settings, commands and linked it to the project. Configured it after for better optimization. (https://travis-ci.com/Avocodeo/wfd-api) Time spent: 2.5H.
 2. Created ‘Recipes’ endpoint for the API. Involved building the controller, model, view, DB factory, DB seeder, migrations and test cases. Time spent: 3H.
 3. Attended sprint meeting with our customer/Tyler. Time spent: 30M.
 4. Helped design database schema with Tyler/Sahil. Time spent: 1H.
 5. Housekeeping items, such as updating Trello and reviewing pull requests on GitHub. Time spend: 30M.
-</p>
+
 
 #### Sahil Verma
-<p>
+
 1. Worked with Tyler and Justin to create our unofficial database schema
 2.Created an updated/official database schema using dbdiagram.io to get a better visual representation with relationships 
-2a.Using Microsoft Access, created all database tables, populated 100 ingredients with RNG numbers for cost, expiry date and quantity so we can start coding some of our features since data is in. Created the same relationships using Microsoft Access which now allows us to do advance SQL queries in Access which we can convert to MySQL commands. Access also allows us to easily export our table to numerous file types making it easy to add to any database language/framework.
-3. Brainstormed a couple ideas for what our application can do and added to our Trello card
-</p>
+3.Using Microsoft Access, created all database tables, populated 100 ingredients with RNG numbers for cost, expiry date and quantity so we can start coding some of our features since data is in. Created the same relationships using Microsoft Access which now allows us to do advance SQL queries in Access which we can convert to MySQL commands. Access also allows us to easily export our table to numerous file types making it easy to add to any database language/framework.
+4. Brainstormed a couple ideas for what our application can do and added to our Trello card
 
 #### Nick Stanton
 
 ## Sprint 3 October 14th - 20th 
 
 #### Tyler Ouellette
-<p>
 1.  Updated Docs Repo with sprint Log, backuplog, and finish sprint report document 2hr
 2. Attended Customer meeting  1hr
 3. Did Users Management Page with controllers and updated migrations 5h
@@ -147,37 +145,35 @@ Wrote up our simple design documentation and deployed to documentation website
 5. Created Inventory Model/View/Controller/Routes/Management Page/Test 2hr
 6. Helped Group understand functionality of project and database 30min
 7. Created Default Admin account to seeder 1hr
-8. Minor Trello House  Keeping 30min
-</p>
+8. Minor Trello House Keeping 30min
 
 #### James Moore
-<p>
+
 1. Added vuetify component library and set up application menu and side bar menu 4h. 
 2. Created the first management page ingredients with crud capabilities vue component, created measurements management page vue component and created measurement type model, controller, tests and relationships 10h. 
 3. Added bacon strip favicon :bacon: 30m. 
 4. Met with group members to solve development environment issues 3H.
 5. Sprint planning 2h.
-</p>
+
 
 #### Justin Dearden
-<p>
+
 1. Sat with James to troubleshoot local environment / DB 1hr
 2. Research Vuetify and the component library 1hr
 3. Created the recipe management page with crud capabilities, vue components and controller 3hr
 4. Reviewed main index.vue file to learn structure and understand how to effectively make changes 1hr
 5. Sprint review 30min
-</p>
+
 
   #### Sahil Verma
-<p>
 
-</p>
+1. Continued working on exporting recipe to text format 2h
+2. Researched laracasts videos to get familiar with database concepts 1h
+
 
 #### Nick Stanton
-<p>
-1. Worked with Tyler to create the user management page
-a) Added 'isAdmin' entry to users table in database for additional administrative permissions, and changed users table migration file. 1h
-b) Created AdminController and associated blade pages and setup routes for new user administration page. 1h
-c) Extensively researched laravel authentication features for use between Admins and Users. 8h
-d) Researched SMTP and laravel's built in email features. 1h
-</p>
+
+1. Added 'isAdmin' entry to users table in database for additional administrative permissions, and changed users table migration file. 1h
+2. Created AdminController and associated blade pages and setup routes for new user administration page. 1h
+3. Extensively researched laravel authentication features for use between Admins and Users. 8h
+4. Researched SMTP and laravel's built in email features. 1h
