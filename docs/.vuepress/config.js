@@ -9,7 +9,7 @@ module.exports = {
             {text: 'Guide', link: '/guide/'},
             {text: 'Group', link: '/group/'},
             {text: 'BackLogs', link: '/backlogs/'},
-            {text: 'Sprint Reports', link: '/sprints/'},
+            {text: 'Sprint Reports', link: '/sprint-reports/'},
             {text: 'External', link: 'https://github.com/Avocodeo'}
         ],
         sidebar: 'auto'
