@@ -96,7 +96,7 @@ Wrote up our simple design documentation and deployed to documentation website
 4. Edited setup documentation for installation stand-alone systems
 </p>
 
-## Sprint 2 October 9th - 14th 
+## Sprint 2 October 9th - 13th 
 
 #### Tyler Ouellette
 <p>
@@ -136,7 +136,7 @@ Wrote up our simple design documentation and deployed to documentation website
 
 #### Nick Stanton
 
-## Sprint 3 October 15th - 21st 
+## Sprint 3 October 14th - 20th 
 
 #### Tyler Ouellette
 <p>
