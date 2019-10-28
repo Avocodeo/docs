@@ -3,7 +3,7 @@
 #### How does our API separate critical systems from the users?
   * The WFD-API acts as a traditional application programming interface; it acts as a piece of middleware between the user (web app) and the critical systems that are in place. 
     * This is done by visiting custom pages that act as query builders and perform certain functions on the database, preventing the user from directly manipulating the database through the web interface.
-  * “Middleware”
+  * These HTTP requests will trigger functions within the controllers for each page for viewing and manipulating data. 
   
 
 #### How does Laravel use the API?
