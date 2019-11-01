@@ -4,8 +4,25 @@
 
 https://avocodeo.github.io/docs/backlogs/#product-backlog
 #### In Progress
-- Route groups for different users
+- Email a recipe to someone
+- Route groups for different users access levels
 - Create Measurements Types management page
+- Grocery List
+  - A user will be able to create a grocery list of items that when filled will be updated in the inventory database table    
+  - The system will automate the creation of a grocery list from the tolerances set in the inventory.  
+  - The system will let users know what meals can be created depending on the current inventory
+- Admin Permissions
+- Notification Systerm
+  - The system will keep track of current inventory of the restaurant/location/household
+  - The system will be able to generate notifications on quantity of suppliers
+  - The system will be able to generate reports on usage of inventory given a timeframe
+- The system will generate notifications to system admins, and users via notification bubble and emails 
+- Low inventory
+- High inventory
+- Empty inventory
+- Graph stats in the application
+
+#### Completed
 - Add documentation for api endpoints (ie. GET request to api/ingredients)
 - More documentation for creating a management page
 - Adding admin permissions (gate level permissions to application)
@@ -30,30 +47,14 @@ https://avocodeo.github.io/docs/backlogs/#product-backlog
 - Delete an measurement
 - Brainstorm grocery list features and use cases
 - Add sprint evaluation doc to documentation site for download
-
-
-- The system will keep track of current inventory of the restaurant/location/household
-- The system will be able to generate notifications on quantity of suppliers
-- The system will be able to generate reports on usage of inventory given a timeframe
-- A user will be able to create a grocery list of items that when filled will be updated in the inventory database table
-- The system will automate the creation of a grocery list from the tolerances set in the inventory.  
-- The system will generate notifications to system admins, and users via notification bubble and emails 
-- Low inventory
-- High inventory
-- Empty inventory
-- The system will let users know what meals can be created depending on the current inventory
+- Export recipe in text format 
 - Management Page Categories
 - Management Page Categories
 - Management Page Ingredients
 - Management Page Measurements
 - Management Page Recipes
 - Management Page Users
-- Graph stats in the application
-- Email a recipe to someone
-- Export recipe in text format 
-- A user may have permissions that are different from other users
-- Route groups for different users
-#### Completed
+
 - Added a favicon for our application
 - Created an admin login to seeder
 - Discussed how much team each person can actually dedicate to the project for better sprint  estimations
@@ -168,6 +169,43 @@ Things that got in the way of the effort put forth in this sprint
 #### Nick Stanton
 - Added 'isAdmin' entry to users table in database for additional administrative permissions, and changed users table migration file. 1h
 - Created AdminController and associated blade pages and setup routes for new user administration page. 1h
+
+### Sprint 4 October 21st - 27th
+
+#### James Moore 
+-	Refactor Management Pages, cleaned up code that broke tests 4h
+-	Turned application into SPA 30min
+-	Highlight where we are at in the application with the group 30min
+-	Added category_id and pair programmed with Tyler 1hr
+-	Logout route redirects back to proper page 30min
+
+#### Sahil Verma 
+-	Researched BLOB files, VUE, Laravel to understand downloaded and exporting to text file. 5h
+-	Created download recipe button within the Recipes.Vue page 4h
+-	Confirmation when file is downloaded 1h
+
+#### Tyler Ouellette
+-	Updated Docs Repo with sprint Log, backup log and finish sprint report document 2hr 
+-	Attended Customer meeting 1hr 
+-	Categories Foreign key and relationship pair programming with James 1hr
+-	Created Model, View, Controller, Seeder, Tests for suppliers 3h
+-	Added sprint evaluation document to docs website for download 30min
+-	Finished Inventory View, Model Seeder etc. 1hr
+-	Fixed delete Item function in all management  pages 1hr
+-	Trello Planning and maintenance 30min
+-	Database Refactor started and almost finished 3hr
+
+#### Nick Stanton
+-	Researched and added email system to project 5h
+-	Configured the product to run with SMTP driver using Mailtrap.io for email testing 1hr
+-	Created markdown pages  for  various  emails  to  be sent 1h
+-	Documented various API pages within the app 2hr
+
+#### Justin Dearden
+-	Created documentation for the management page creation 3h
+-	Cleaned up the documentation website, refactoring and added content 2h
+-	Helped with environment issues 1hr
+
 
 ## Database Relationships
 - A meal has ingredients. 

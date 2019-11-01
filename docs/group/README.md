@@ -177,3 +177,46 @@ Wrote up our simple design documentation and deployed to documentation website
 2. Created AdminController and associated blade pages and setup routes for new user administration page. 1h
 3. Extensively researched laravel authentication features for use between Admins and Users. 8h
 4. Researched SMTP and laravel's built in email features. 1h
+
+## Sprint 4 October 21st - 27th 
+
+#### Tyler Ouellette
+1. Updated Documentation Repo With latest updates 1hr
+2. Attended Sprint meeting with our customer 1hr.
+3. Worked with James to get categories foreign key setup over discord. 1hr
+4. Created Model, View, Controller, Seeder and Tests for Suppliers. 3hr
+5. Adding sprint evaluation document to site for download. 30min
+6. Finished Inventory, Model, Controller, Seeder, Routes, Tests etc 1hr more.
+7. Fixed delete item function in all management pages 1hr
+8. Trello Planning and Maintenance 30min
+  
+#### Sahil Verma
+1.    Spent 10 hours watching, learning and implementing the following:
+a.    Laracasts videos on routes, controllers, migrations, yield/section tips, database access
+b.    Understanding the routes/controllers implemented in our directory structure
+c.    Reviewed the management pages to understand how everything is laid out/linked
+d.    Attempted to create my own export page with a new route but ended up scratching it since my changes could be implemented in our existing Recipes.vue page
+e.    Watched Vue tutorials to understand how the script portion works (methods), templates, click events etc. 
+f.    Researched how BLOB works to download a file based off user input
+g.    Implemented a download button using BLOB that downloads a .txt file with the name of the recipe the user is downloading with the recipe name and category (lunch, dinner, snack etc) in the file. Confirmation on screen appears when file is downloaded.
+
+#### Nick Stanton
+1. Researched and added email system to project. 5h
+2. Configured to run with SMTP driver using service called 'Mailtrap.io' for email testing. 1h
+3. Created markdown pages for various emails to be sent. 1h
+4. Fixed various bugs between email systems and laravel. 2h
+5. Documented various API pages within the app. 2h
+   
+#### Justin Deaden
+1. Wrote out documentation for the management page API creation - 3H
+2. Worked on the docs site, cleaned up items and added content - 2H
+3. Troubleshot environment setups - 1H
+4. Researched Laravel issues - Categories not displaying on recipes page - 1H
+5. Looked more into Vue and layouts for the management pages - 1H
+
+#### James Moore
+1. Went through each management page and did some clean up and fixed code that was causing tests to break. 4h
+2. Turned the application into a SPA 0h
+3. Highlight where were at in the application 30min
+4) Add category_id foreign key on recipes 1h
+5) Logout route redirects back to proper page 30min
