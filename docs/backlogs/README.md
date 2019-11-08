@@ -7,10 +7,6 @@ https://avocodeo.github.io/docs/backlogs/#product-backlog
 - Email a recipe to someone
 - Route groups for different users access levels
 - Create Measurements Types management page
-- Grocery List
-  - A user will be able to create a grocery list of items that when filled will be updated in the inventory database table    
-  - The system will automate the creation of a grocery list from the tolerances set in the inventory.  
-  - The system will let users know what meals can be created depending on the current inventory
 - Admin Permissions
 - Notification Systerm
   - The system will keep track of current inventory of the restaurant/location/household
@@ -23,6 +19,12 @@ https://avocodeo.github.io/docs/backlogs/#product-backlog
 - Graph stats in the application
 
 #### Completed
+- Grocery List
+  - A user will be able to create a grocery list of items that when filled will be updated in the inventory database table    
+  - The system will automate the creation of a grocery list from the tolerances set in the inventory.  
+  - The system will let users know what meals can be created depending on the current inventory
+
+
 - Add documentation for api endpoints (ie. GET request to api/ingredients)
 - More documentation for creating a management page
 - Adding admin permissions (gate level permissions to application)
@@ -170,7 +172,7 @@ Things that got in the way of the effort put forth in this sprint
 - Added 'isAdmin' entry to users table in database for additional administrative permissions, and changed users table migration file. 1h
 - Created AdminController and associated blade pages and setup routes for new user administration page. 1h
 
-### Sprint 4 October 21st - 27th
+### Sprint 4 October 21st - 28th
 
 #### James Moore 
 -	Refactor Management Pages, cleaned up code that broke tests 4h
@@ -205,6 +207,31 @@ Things that got in the way of the effort put forth in this sprint
 -	Created documentation for the management page creation 3h
 -	Cleaned up the documentation website, refactoring and added content 2h
 -	Helped with environment issues 1hr
+
+### Sprint 5 October 29th - Nov 3rd
+
+#### James Moore 
+-	Created Grocery List feature  3h
+-	Adjusted Home page to have a nice display of options on where to start
+-	Created Notifications Tab 
+
+
+#### Sahil Verma 
+-	Adjusted download button to directly download file instead of using modal 2h
+
+#### Tyler Ouellette
+-	Updated Docs Repo with sprint Log, backup log and finish sprint report document 2hr 
+-	Attended Customer meeting 1hr 
+-	Help group member understand and use command line Git properly 30min
+-	Helped Nick with Notifications, created in sidebar 30min
+-	Trello Housekeeping 30min
+
+#### Nick Stanton
+-	Added notification table, factory, seeder, notification pages 3h
+-	Installed Laravel telescope for debugging 1h
+-	Setup notification API 1h
+
+#### Justin Dearden
 
 
 ## Database Relationships
