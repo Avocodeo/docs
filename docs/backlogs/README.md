@@ -8,15 +8,14 @@ https://avocodeo.github.io/docs/backlogs/#product-backlog
 - Route groups for different users access levels
 - Create Measurements Types management page
 - Admin Permissions
-- Notification Systerm
-  - The system will keep track of current inventory of the restaurant/location/household
-  - The system will be able to generate notifications on quantity of suppliers
-  - The system will be able to generate reports on usage of inventory given a timeframe
-- The system will generate notifications to system admins, and users via notification bubble and emails 
-- Low inventory
-- High inventory
-- Empty inventory
-- Graph stats in the application
+- Notification System
+  - The system will generate notifications to system admins, and users via notification bubble and emails 
+  - Low inventory
+  - Over Capacity/ High inventory
+  - Empty inventory
+  - Inventory Item Added
+  - New User Added
+
 
 #### Completed
 - Grocery List
