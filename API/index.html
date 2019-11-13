@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>WFD-API | Avocodeo</title>
+    <meta name="description" content="Just playin">
+    
+    
+    <link rel="preload" href="/docs/assets/css/0.styles.f544e154.css" as="style"><link rel="preload" href="/docs/assets/js/app.678b18c5.js" as="script"><link rel="preload" href="/docs/assets/js/2.2ea63de5.js" as="script"><link rel="preload" href="/docs/assets/js/5.bfbf5a53.js" as="script"><link rel="prefetch" href="/docs/assets/js/10.e7b1102c.js"><link rel="prefetch" href="/docs/assets/js/11.96c5cc84.js"><link rel="prefetch" href="/docs/assets/js/12.b82363f4.js"><link rel="prefetch" href="/docs/assets/js/13.371c965d.js"><link rel="prefetch" href="/docs/assets/js/14.d202bc3d.js"><link rel="prefetch" href="/docs/assets/js/3.69fd0ec4.js"><link rel="prefetch" href="/docs/assets/js/4.24e30d10.js"><link rel="prefetch" href="/docs/assets/js/6.a0148151.js"><link rel="prefetch" href="/docs/assets/js/7.d391297e.js"><link rel="prefetch" href="/docs/assets/js/8.46fc4006.js"><link rel="prefetch" href="/docs/assets/js/9.7287b21a.js">
+    <link rel="stylesheet" href="/docs/assets/css/0.styles.f544e154.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/docs/" class="home-link router-link-active"><!----> <span class="site-name">Avocodeo</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/docs/" class="nav-link">Home</a></div><div class="nav-item"><a href="/docs/guide/" class="nav-link">Guide</a></div><div class="nav-item"><a href="/docs/API/" class="nav-link router-link-exact-active router-link-active">API</a></div><div class="nav-item"><a href="/docs/group/" class="nav-link">Group</a></div><div class="nav-item"><a href="/docs/backlogs/" class="nav-link">BackLogs</a></div><div class="nav-item"><a href="/docs/sprint-reports/" class="nav-link">Sprint Reports</a></div><div class="nav-item"><a href="https://github.com/Avocodeo" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  External
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/docs/" class="nav-link">Home</a></div><div class="nav-item"><a href="/docs/guide/" class="nav-link">Guide</a></div><div class="nav-item"><a href="/docs/API/" class="nav-link router-link-exact-active router-link-active">API</a></div><div class="nav-item"><a href="/docs/group/" class="nav-link">Group</a></div><div class="nav-item"><a href="/docs/backlogs/" class="nav-link">BackLogs</a></div><div class="nav-item"><a href="/docs/sprint-reports/" class="nav-link">Sprint Reports</a></div><div class="nav-item"><a href="https://github.com/Avocodeo" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  External
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>WFD-API</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/docs/API/#example-of-api-call-ingredients" class="sidebar-link">Example of API call - Ingredients</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/docs/API/#example-of-api-call-–-users" class="sidebar-link">Example of API call – Users</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/docs/API/#example-of-api-page-ingredients" class="sidebar-link">Example of API page - Ingredients</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="wfd-api"><a href="#wfd-api" aria-hidden="true" class="header-anchor">#</a> WFD-API</h1> <h4 id="how-does-our-api-separate-critical-systems-from-the-users"><a href="#how-does-our-api-separate-critical-systems-from-the-users" aria-hidden="true" class="header-anchor">#</a> How does our API separate critical systems from the users?</h4> <ul><li>The WFD-API acts as a traditional application programming interface; it acts as a piece of middleware between the user (web app) and the critical systems that are in place.
+<ul><li>This is done by visiting custom pages that act as query builders and perform certain functions on the database, preventing the user from directly manipulating the database through the web interface.</li></ul></li> <li>These HTTP requests will trigger functions within the controllers for each page for viewing and manipulating data.</li></ul> <h4 id="how-does-laravel-use-the-api"><a href="#how-does-laravel-use-the-api" aria-hidden="true" class="header-anchor">#</a> How does Laravel use the API?</h4> <ul><li><p>API deals with the database end of the web app. It acts as another layer of custom “middleware” to separate end users from the raw data used. Laravel interacts with the API in order to retrieve/store relevant data, which then gets parsed and formatted depending on the user’s request.</p></li> <li><p>The API performs different functions depending on which HTTP request was performed. Laravel interprets these requests and routes the command through various API functions that perform certain tasks. The typical “GET” request will fetch all relevant data and will display it to the user in raw JSON format, while a “POST or “PATCH” request will add a new entry or will edit/modify an existing entry.</p></li> <li><p>Explain how the API can help with development.</p> <ul><li><p>Through the use of ‘php artisan tinker’</p></li> <li><p><code>App\Project::first()</code> - This will dump the first entry within the table “project” in the database</p></li> <li><p><code>App\Project::all()</code> - This will dump the entire table “projects”</p></li></ul></li></ul> <h4 id="how-can-you-access-it"><a href="#how-can-you-access-it" aria-hidden="true" class="header-anchor">#</a> How can you access it?</h4> <ul><li>As it currently stands, the web app is hosted locally on developer systems. Because of this, the following links are local and will not work unless the app is hosted locally. To access the API directly, visit one of the following pages:
+<ul><li>Users - http://127.0.0.1:8000/api/users</li> <li>Ingredients - http://127.0.0.1:8000/api/ingredients</li> <li>Inventories - http://127.0.0.1:8000/api/inventories</li> <li>Measurements - http://127.0.0.1:8000/api/measurements</li> <li>Recipes - http://127.0.0.1:8000/api/recipes</li></ul></li></ul> <h2 id="example-of-api-call-ingredients"><a href="#example-of-api-call-ingredients" aria-hidden="true" class="header-anchor">#</a> Example of API call - Ingredients</h2> <ul><li>Each call to the API is dictated by the controller page associated with this API endpoint. As a result, certain fields are returned in raw JSON format right from the database. Here is an example of visiting the page &quot;http://127.0.0.1:8000/api/ingredients&quot;:</li></ul> <div class="language- extra-class"><pre class="language-text"><code>[
+    {
+        &quot;id&quot;: 1,
+        &quot;name&quot;: &quot;salt&quot;,
+        &quot;measurement_id&quot;: 1,
+        &quot;created_at&quot;: &quot;2019-10-25 04:44:43&quot;,
+        &quot;updated_at&quot;: &quot;2019-10-25 04:44:43&quot;,
+        &quot;measurement&quot;: {
+            &quot;id&quot;: 1,
+            &quot;name&quot;: &quot;Gallons&quot;,
+            &quot;abbreviation&quot;: &quot;gal&quot;,
+            &quot;type_id&quot;: 2,
+            &quot;created_at&quot;: &quot;2019-10-25 04:44:43&quot;,
+            &quot;updated_at&quot;: &quot;2019-10-25 04:44:43&quot;,
+            &quot;type&quot;: {
+                &quot;id&quot;: 2,
+                &quot;name&quot;: &quot;Volume&quot;,
+                &quot;created_at&quot;: &quot;2019-10-25 04:44:43&quot;,
+                &quot;updated_at&quot;: &quot;2019-10-25 04:44:43&quot;
+            }
+        }
+    },
+    {
+        &quot;id&quot;: 2,
+        &quot;name&quot;: &quot;pepper&quot;,
+        &quot;measurement_id&quot;: 1,
+        &quot;created_at&quot;: &quot;2019-10-25 04:44:43&quot;,
+        &quot;updated_at&quot;: &quot;2019-10-25 04:44:43&quot;,
+        &quot;measurement&quot;: {
+            &quot;id&quot;: 1,
+            &quot;name&quot;: &quot;Gallons&quot;,
+            &quot;abbreviation&quot;: &quot;gal&quot;,
+            &quot;type_id&quot;: 2,
+            &quot;created_at&quot;: &quot;2019-10-25 04:44:43&quot;,
+            &quot;updated_at&quot;: &quot;2019-10-25 04:44:43&quot;,
+            &quot;type&quot;: {
+                &quot;id&quot;: 2,
+                &quot;name&quot;: &quot;Volume&quot;,
+                &quot;created_at&quot;: &quot;2019-10-25 04:44:43&quot;,
+                &quot;updated_at&quot;: &quot;2019-10-25 04:44:43&quot;
+            }
+        }
+    }
+]
+</code></pre></div><h2 id="example-of-api-call-–-users"><a href="#example-of-api-call-–-users" aria-hidden="true" class="header-anchor">#</a> Example of API call – Users</h2> <ul><li>When performing a “GET” request on the page “API/Users”</li></ul> <div class="language- extra-class"><pre class="language-text"><code>[
+  {
+    &quot;id&quot;: 2,
+    &quot;name&quot;: &quot;Braden Beatty&quot;,
+    &quot;isAdmin&quot;: 0,
+    &quot;email&quot;: &quot;haag.estell@example.org&quot;,
+    &quot;email_verified_at&quot;: &quot;2019-10-25 04:44:43&quot;,
+    &quot;created_at&quot;: &quot;2019-10-25 04:44:43&quot;,
+    &quot;updated_at&quot;: &quot;2019-10-25 04:44:43&quot;
+  }
+]
+</code></pre></div><ul><li>Notice how the API did not return password fields. The API is returning on the data necessary for the user to see and make decisions, and the password field is not necessary. The API is preventing the user from seeing unauthorized information. Sensitive fields like password information should never be returned, and is handled by the back end the API that handles authentication.</li> <li>This is also returned when using the “php artisan tinker” command which opens an interactive shell to the API that can fetch the same data</li></ul> <div class="language- extra-class"><pre class="language-text"><code>$php artisan tinker
+Psy Shell v0.9.9 (PHP 7.3.10 — cli) by Justin Hileman
+&gt;&gt;&gt; App\Ingredient::first()
+=&gt; App\Ingredient {#3127
+     id: 1,
+     name: &quot;salt&quot;,
+     measurement_id: 1,
+     created_at: &quot;2019-10-25 04:44:43&quot;,
+     updated_at: &quot;2019-10-25 04:44:43&quot;,
+     measurement: App\Measurement {#3083
+       id: 1,
+       name: &quot;Gallons&quot;,
+       abbreviation: &quot;gal&quot;,
+       type_id: 2,
+       created_at: &quot;2019-10-25 04:44:43&quot;,
+       updated_at: &quot;2019-10-25 04:44:43&quot;,
+       type: App\MeasurementType {#3094
+         id: 2,
+         name: &quot;Volume&quot;,
+         created_at: &quot;2019-10-25 04:44:43&quot;,
+         updated_at: &quot;2019-10-25 04:44:43&quot;,
+       },
+     },
+   }
+</code></pre></div><h2 id="example-of-api-page-ingredients"><a href="#example-of-api-page-ingredients" aria-hidden="true" class="header-anchor">#</a> Example of API page - Ingredients</h2> <ul><li>Here is the code for the API page &quot;Ingredients&quot;. Going back to how the API operates, each page will return information as dictated by the API controller pages and how the HTTP request was routed by Laravel.</li></ul> <div class="language- extra-class"><pre class="language-text"><code>&lt;?php
+
+namespace App\Http\Controllers\API;
+use App\Http\Controllers\Controller;
+
+use App\Ingredient;
+
+class IngredientsController extends Controller
+{
+    public function index()
+    {
+        return Ingredient::all();
+    }
+
+    public function show(Ingredient $ingredient)
+    {
+        return $ingredient;
+    }
+
+    public function create()
+    {
+        return view('ingredients.create');
+    }
+
+    public function store()
+    {
+        $attributes = request()-&gt;validate([
+            'name' =&gt; 'required',
+            'measurement_id' =&gt; 'required',
+        ]);
+
+        $ingredient = Ingredient::create($attributes);
+        return response()-&gt;json([
+            'id' =&gt; $ingredient-&gt;id,
+            'message' =&gt; 'ingredient was successfully created'
+        ]);
+    }
+
+    public function update(Ingredient $ingredient)
+    {
+        $attributes = request()-&gt;validate([
+            'name' =&gt; 'required',
+            'measurement_id' =&gt; 'sometimes'
+        ]);
+
+        $ingredient-&gt;update($attributes);
+
+        return response()-&gt;json([
+            'ingredient' =&gt; $ingredient-&gt;name,
+            'message' =&gt; 'ingredient updated'
+        ]);
+    }
+
+    public function destroy(Ingredient $ingredient)
+    {
+        $ingredient-&gt;delete();
+
+        return response()-&gt;json([
+            'message' =&gt; 'ingredient was successfully deleted'
+        ]);
+    }
+}
+</code></pre></div><ul><li>When performing a &quot;GET&quot; HTTP request on this page, Laravel will trigger the function:</li></ul> <div class="language- extra-class"><pre class="language-text"><code>public function index()
+{
+    return Ingredient::all();
+}
+</code></pre></div><ul><li>When performing a &quot;POST&quot; HTTP request on this page, Laravel will trigger the function:</li></ul> <div class="language- extra-class"><pre class="language-text"><code>public function store()
+{
+    $attributes = request()-&gt;validate([
+        'name' =&gt; 'required',
+        'measurement_id' =&gt; 'required',
+    ]);
+
+    $ingredient = Ingredient::create($attributes);
+    return response()-&gt;json([
+        'id' =&gt; $ingredient-&gt;id,
+        'message' =&gt; 'ingredient was successfully created'
+    ]);
+}
+</code></pre></div><ul><li>When performing a &quot;PATCH&quot; HTTP request on this page, Laravel will trigger the function:</li></ul> <div class="language- extra-class"><pre class="language-text"><code>public function update(Ingredient $ingredient)
+{
+    $attributes = request()-&gt;validate([
+        'name' =&gt; 'required',
+        'measurement_id' =&gt; 'sometimes'
+    ]);
+
+    $ingredient-&gt;update($attributes);
+
+    return response()-&gt;json([
+        'ingredient' =&gt; $ingredient-&gt;name,
+        'message' =&gt; 'ingredient updated'
+    ]);
+}
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/docs/assets/js/app.678b18c5.js" defer></script><script src="/docs/assets/js/2.2ea63de5.js" defer></script><script src="/docs/assets/js/5.bfbf5a53.js" defer></script>
+  </body>
+</html>
