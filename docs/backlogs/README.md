@@ -4,20 +4,21 @@
 
 https://avocodeo.github.io/docs/backlogs/#product-backlog
 #### In Progress
+<!-- - Create Measurements Types management page -->
+- Admin Permissions
+
+
+#### Completed
 - Email a recipe to someone
 - Route groups for different users access levels
-- Create Measurements Types management page
-- Admin Permissions
 - Notification System
   - The system will generate notifications to system admins, and users via notification bubble and emails 
   - Low inventory
-  - Over Capacity/ High inventory
   - Empty inventory
   - Inventory Item Added
   - New User Added
 
 
-#### Completed
 - Grocery List
   - A user will be able to create a grocery list of items that when filled will be updated in the inventory database table    
   - The system will automate the creation of a grocery list from the tolerances set in the inventory.  
