@@ -220,3 +220,29 @@ g.    Implemented a download button using BLOB that downloads a .txt file with t
 3. Highlight where were at in the application 30min
 4) Add category_id foreign key on recipes 1h
 5) Logout route redirects back to proper page 30min
+
+## Sprint 5 October 28th - Nov 3rd
+
+#### Tyler Ouellette
+
+1.	Updated Docs Repo with sprint Log, backup log and finish sprint report document 2hr 
+2.	Attended Customer meeting 1hr 
+3.	Help group member understand and use command line Git properly 30min
+4.	Helped Nick with Notifications, created in sidebar 30min
+5.	Trello Housekeeping 30min
+
+#### Sahil Verma
+
+1. Adjusted download button to directly download file instead of using modal 2h
+
+#### James Moore
+
+1. Created Grocery List feature  3h
+2. Adjusted Home page to have a nice display of options on where to start 2h
+3. Created Notifications Tab 2h
+
+#### Nick Stanton
+
+1. Added notification table, factory, seeder, notification pages 3h
+2. Installed Laravel telescope for debugging 1h
+3.	Setup notification API 1h

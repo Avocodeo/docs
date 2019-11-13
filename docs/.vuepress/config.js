@@ -7,9 +7,8 @@ module.exports = {
         nav: [
             {text: 'Home', link: '/'},
             {text: 'Guide', link: '/guide/'},
-            {text: 'API Documentation', link: '/API/'},
-            {text: 'Management Page Documentation', link: '/sitedocs/'},
-            {text: 'Testing Documentation', link: '/testing/'},
+            {text: 'API', link: '/API/'},
+            {text: 'Testing', link: '/testing/'},
             {text: 'Group', link: '/group/'},
             {text: 'BackLogs', link: '/backlogs/'},
             {text: 'Sprint Reports', link: '/sprint-reports/'},
