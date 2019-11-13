@@ -57,44 +57,45 @@ The purpose of this sprint was for every one to get some knowledge of the larave
 their development environments. Which involved setting up the Documentation repository and Whats for dinner api. 
 
 #### Justin Dearden
-<p>
+
 Hey Everyone, here is my stand up for the week. This week I set up both repos locally on my machine. I installed Laravel with valet and got everything running.  I created the documentation for the Mac installation guide (I do want to tweak it a bit, the headings are off on the Vue page.) Ive been going over the Laracasts and just experimenting and getting familiar with Laravel. 
-</p>
+
 
 #### James Moore
-<p>
+
 1. I created a GitHub organization to house our teams documentation repository and api repository. 
 I deployed our documentation site using the static site generator vue press to github pages accessible at https://avocodeo.github.io/docs/ and included some boilerplate for Homepage, guide (development environment set ups) and group related things such as availability.
 I created/assigned tasks to my team members to mostly set up there environments and add documentation for the process they followed PC/Mac setups.
 I created and pushed a wfd-api repository, this is going to be the backend of our application using the PHP framework Laravel. I modified the welcome page and created a application status end point and accompanying test. To show whether the application is running properly. 
 Wrote up our simple design documentation and deployed to documentation website 
 2. Today I'm going to create tasks for the following week. We've decided to go with team member Tyler's name suggestion whats-for-dinner for our application 
-</p>
+
 
 #### Sahil Verma
-<p>
+
 1.    Installation of Laravel on local machine complete - the installation process involved downloading a composer, PHP and Laravel. The process wasn’t a smooth and simple installation as some steps needed proper attention. In the PC documentation guide I created, I listed all the steps that need to be completed in-order for a smooth installation. Example, making sure the latest version of PHP was installed so the composer could work, disabling certain extensions in the php.ini file so Laravel could install properly etc. If followed properly, Laravel will install and you will be able to work with the file in an editor of your choice. 
 2.    Documentation Guide posted on GitHub (formatting will be adjusted for easier reading)
 3.    Downloaded local repository that James has posted in GitHub to keep in-line with group for our web application What’s For Dinner
 4.    Watching Laracast videos/YouTube tutorials to familiarize myself with the environment and extra practice for when we start coding!
-</p>
+
 
 #### Tyler Ouellette
 
-<p>
+
 1. I created a Trello board for the group that is being used for our weekly sprints. 
 2. I installed composer for mac and laravel. I had some issues with the set up process. I created a document with all the instructions of what I did and followed of the laracast videos and included screen shots of the errors that I had. 
 3. Uploaded my documentation guide to the github.
 4. Created a review of the laracasts videos with basic examples and documentation for quick reference. Will be uploading the documentation once formatting is complete.
 5. Watched the Laracast Videos up to video 10.
-</p>
+
+
 #### Nick Stanton
-<p>
+
 1. I followed the documentation provided by group members and installed Git, PHP, Composer, and Laravel in that order. Encountered some dependency isues, fixed and made sure all further dependencies were correct, all plugins were loaded. PHP Launches, and is able to run laravel framework.
 2. Git cloned the project files and ensured that compatibility was working between my system and the rest of the group
 3. Participated in card edits on trello, providing input where necessary
 4. Edited setup documentation for installation stand-alone systems
-</p>
+
 
 ## Sprint 2 October 9th - 13th 
 
@@ -192,13 +193,13 @@ Wrote up our simple design documentation and deployed to documentation website
   
 #### Sahil Verma
 1.    Spent 10 hours watching, learning and implementing the following:
-a.    Laracasts videos on routes, controllers, migrations, yield/section tips, database access
-b.    Understanding the routes/controllers implemented in our directory structure
-c.    Reviewed the management pages to understand how everything is laid out/linked
-d.    Attempted to create my own export page with a new route but ended up scratching it since my changes could be implemented in our existing Recipes.vue page
-e.    Watched Vue tutorials to understand how the script portion works (methods), templates, click events etc. 
-f.    Researched how BLOB works to download a file based off user input
-g.    Implemented a download button using BLOB that downloads a .txt file with the name of the recipe the user is downloading with the recipe name and category (lunch, dinner, snack etc) in the file. Confirmation on screen appears when file is downloaded.
+2.    Laracasts videos on routes, controllers, migrations, yield/section tips, database access
+3.    Understanding the routes/controllers implemented in our directory structure
+4.    Reviewed the management pages to understand how everything is laid out/linked
+5.    Attempted to create my own export page with a new route but ended up scratching it since my changes could be implemented in our existing Recipes.vue page
+6.    Watched Vue tutorials to understand how the script portion works (methods), templates, click events etc. 
+7.    Researched how BLOB works to download a file based off user input
+8.    Implemented a download button using BLOB that downloads a .txt file with the name of the recipe the user is downloading with the recipe name and category (lunch, dinner, snack etc) in the file. Confirmation on screen appears when file is downloaded.
 
 #### Nick Stanton
 1. Researched and added email system to project. 5h
